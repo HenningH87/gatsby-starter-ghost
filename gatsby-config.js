@@ -10,7 +10,7 @@ try {
 } catch (e) {
     ghostConfig = {
         production: {
-            apiUrl: selfgrowthguru.netlify.app,
+            apiUrl: process.env.GHOST_API_URL,
             contentApiKey: process.env.GHOST_CONTENT_API_KEY,
         },
     }
