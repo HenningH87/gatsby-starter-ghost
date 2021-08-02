@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `http://localhos
 */
 module.exports = {
     siteMetadata: {
-        siteUrl: process.env.SITEURL || config.siteUrl,
+        siteUrl: "selfgrowthguru.com" || process.env.SITEURL || config.siteUrl,
     },
     plugins: [
         /**
