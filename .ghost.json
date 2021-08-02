@@ -2,14 +2,14 @@
   "development": {
     "apiUrl": "https://ghost-selfgrowthguru.herokuapp.com",
     "contentApiKey": "bd0a407ee7f35789ce2112a054",
-    "siteUrl":"selfgrowthguru.netlify.app"
+    "siteUrl":"selfgrowthguru.com"
   },
   "production": {
     "apiUrl": "https://ghost-selfgrowthguru.herokuapp.com",
     "contentApiKey": "bd0a407ee7f35789ce2112a054",
-    "siteUrl":"selfgrowthguru.netlify.app"
+    "siteUrl":"selfgrowthguru.com"
   },
-  "siteUrl":"selfgrowthguru.netlify.app"
+  "siteUrl":"selfgrowthguru.com"
 }
 
 
