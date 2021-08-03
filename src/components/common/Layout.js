@@ -43,7 +43,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                         {site.logo ?
                                             <img className="site-logo" src={site.logo} alt={site.title} />
                                             : <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
-                                        }
+                                        } SelfGrowthGuru.com
                                     </Link>
                                 </div>
                                 <div className="site-mast-right">
