@@ -43,8 +43,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                         {site.logo ?
                                             <img className="site-logo" src={site.logo} alt={site.title} />
                                             : <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
-                                        } SelfGrowthGuru.com
-                                    </Link>
+                                        } 
+                                    </Link>SelfGrowthGuru.com
                                 </div>
                                 <div className="site-mast-right">
                                     { site.twitter && <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
